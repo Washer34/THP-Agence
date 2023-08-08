@@ -1,0 +1,25 @@
+#dark {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+#light {
+  background-color: #fff;
+  color: black
+}
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  height: 100%;
+}
+
+#dark .navbar-brand {
+  color: white;
+}
+
+.navbar-nav a {
+  margin-right: 20px;
+}
