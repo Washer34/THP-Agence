@@ -12,7 +12,7 @@ import ThemeContext from './theme/themecontext'
 
 
 const App = () => {
-  
+
   const storedTheme = localStorage.getItem('theme') || 'light';
   const [theme, setTheme] = useState(storedTheme)
   const toggleTheme = () => {

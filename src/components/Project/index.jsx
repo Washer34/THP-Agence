@@ -20,7 +20,6 @@ const Project = () => {
         <h1>{currentProject.title}</h1>
         <p>{currentProject.content}</p>
       </div>
-
     )
   }
 }
